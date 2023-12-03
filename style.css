@@ -2,3 +2,44 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background: url('bg.jpg') no-repeat fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    background-color: aquamarine;
+    margin: 10% auto;
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid brown;
+    border-radius: 50px;
+}
+
+h3{
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+    font-size: larger;
+    cursor: pointer;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.row2{
+    padding-top: 10px;
+}
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-evenly;
+}
