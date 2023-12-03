@@ -6,6 +6,7 @@ body{
     background: url('bg.jpg') no-repeat fixed;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .container{
