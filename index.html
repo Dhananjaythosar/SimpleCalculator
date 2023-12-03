@@ -9,17 +9,33 @@
 </head>
 
 <body>
-    <center><div class="container">
-        <h3>Enter the 1st Number : </h3>
-        <p onclick="num1()" id="num1-el">0</p>
-        <h3>Enter the 2nd Number : </h3>
-        <p onclick="num2()" id="num2-el">0</p>
-        <button onclick="add()">Addition</button>
-        <button onclick="sub()">Subtraction</button>
-        <button onclick="mul()">Multiplication</button>
-        <button onclick="div()">Division</button>
-        <h1 id="res-el">Result :</h1>
-    </div></center>
+    <center>
+        <div class="container">
+            <h1>Simple-Calculator</h1>
+            <br>
+            <div class="number">
+                <h3>Enter the 1st Number : </h3>
+                <p onclick="num1()" id="num1-el">0</p>
+            </div>
+            <div class="number">
+                <h3>Enter the 2nd Number : </h3>
+                <p onclick="num2()" id="num2-el">0</p>
+            </div>
+            <br>
+            <div class="btn">
+                <div class="row1">
+                    <button onclick="add()">Addition</button>
+                    <button onclick="sub()">Subtraction</button>
+                </div>
+                <div class="row2">
+                    <button onclick="mul()">Multiplication</button>
+                    <button onclick="div()">Division</button>
+                </div>
+            </div>
+            <br>
+            <h2 id="res-el">Result :</h2>
+        </div>
+    </center>
     <script src="script.js"></script>
 </body>
 
