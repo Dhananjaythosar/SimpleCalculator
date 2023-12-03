@@ -36,6 +36,8 @@ button{
     cursor: pointer;
     width: 45%;
     font-size:15px;
+    font-weight: bold;
+    border: none;
 }
 
 .row2{
